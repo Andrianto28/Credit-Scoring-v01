@@ -1,0 +1,25 @@
+Conditioning (Low, Medium, High)
+'credit_score' : 0-579, 580-669, 670-850 
+'customer_type': Random
+'job_position' : 'Not working', Selain 'Not working' 
+'debt_to_income': >= 0.5, 0.49 - 0.36, <= 0.35 
+'payment_history': 'Poor & Fair', 'Good', 'Excellent'
+'credit_limit': 0-41300000, 413000001 - 116280000, > 116280001
+'credit_utilization': >= 0.5, 0.5 - 0.31, <= 0.3 
+'length_of_credit_history': Random
+'last_credit_history' 'none, doubt, non-performing loan', 'substandard, under attention', 'none, performing loan'
+'other_credit_history1': 'none, doubt, non-performing loan', 'substandard, under attention', 'none, performing loan'
+'other_credit_history2': 'none, doubt, non-performing loan', 'substandard, under attention', 'none, performing loan'
+'other_credit_history3': 'none, doubt, non-performing loan', 'substandard, under attention', 'none, performing loan'
+'types_of_credit': Random
+'bankcruptcy_or_foreclosure_history': 'Not', 'Selain Not'
+'document_validity_KTP': 'fraud, not included, unreadable', 'unreadable, expired', 'not included, valid'
+'document_validity_NPWP': 'fraud, not included, unreadable', 'unreadable, expired', 'not included, valid'                          
+'document_validity_SIUP': 'fraud, not included, unreadable', 'unreadable, expired', 'not included, valid'
+'document_validity_akta_notaris': 'fraud, not included, unreadable', 'unreadable, expired', 'not included, valid'
+'document_validity_SKDP': 'fraud, not included, unreadable', 'unreadable, expired', 'not included, valid'
+'document_validity_TDP': 'fraud, not included, unreadable', 'unreadable, expired', 'not included, valid'
+'document_validity_NIB': 'fraud, not included, unreadable', 'unreadable, expired', 'not included, valid' 
+'legal_history': 'no', 'yes'
+'address_match': 'no', 'yes'
+'criminal_rate_location': 'low', 'medium', 'high'
